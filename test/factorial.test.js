@@ -28,4 +28,12 @@ describe('Basic factorial test', () => {
 	test('factorial of -1 is NaN', () => {
 		expect(factorial(-1)).toBeNaN();
 	});
+
+	test('factorial of "string" is NaN', () => {
+		expect(factorial('string')).toBeNaN();
+	});
+
+	test('factorial of null is NaN', () => {
+		expect(factorial(null)).toBeNaN();
+	});
 });

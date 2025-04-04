@@ -1,4 +1,7 @@
 const factorial = (number) => {
+	if (typeof number !== 'number') {
+		return NaN;
+	}
 	if (number < 0) {
 		return NaN;
 	}
