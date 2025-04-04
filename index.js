@@ -1,4 +1,4 @@
-module.exports = factorial = (number) => {
+const factorial = (number) => {
 	if (number < 0) {
 		return NaN;
 	}
@@ -11,3 +11,5 @@ module.exports = factorial = (number) => {
 	}
 	return result;
 };
+
+module.exports = factorial;
