@@ -1,14 +1,13 @@
 {
   "name": "@gledyson/factorialjs",
   "author": "Gledyson Ferreira",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple JavaScript library to calculate the factorial of a number.",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "publish": "npm publish --access public",
     "test": "jest"
   },
   "keywords": [
